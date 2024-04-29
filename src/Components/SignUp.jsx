@@ -28,7 +28,7 @@ const SignUP = () =>{
                     </div>
                     <h4>Please first use sign up with Google</h4>      
                 
-                   <GoogleOAuthProvider clientId="247689776987-qtl7udm5ui95m342tbt7aq1kichrc8v2.apps.googleusercontent.com">
+                   <GoogleOAuthProvider clientId="CLIENT ID">
                     <GoogleLogin
                         onSuccess={credentialResponse => {
                             const decoded = jwtDecode(credentialResponse.credential);

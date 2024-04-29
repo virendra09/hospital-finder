@@ -29,7 +29,7 @@ const FetchHospitals = () => {
 
     const fetchNearbyHospitals = () => {
         if (latitude && longitude) {
-            const apiUrl = `api/place/nearbysearch/json?location=${latitude},${longitude}&radius=5000&type=hospital&key=AIzaSyACZcEN7Nc1TqEqVh7cS94Zf2itxYOl1qg`;
+            const apiUrl = `api/place/nearbysearch/json?location=${latitude},${longitude}&radius=5000&type=hospital&key={Your API KEY}`;
 
             fetch(apiUrl)
                 .then((response) => response.json())

@@ -44,13 +44,12 @@ const points = [
 const MyComponent=()=> {
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
-    googleMapsApiKey: "AIzaSyACZcEN7Nc1TqEqVh7cS94Zf2itxYOl1qg"
+    googleMapsApiKey: "Your API KEY"
   })
 
   const [map, setMap] = React.useState(null)
 
   const onLoad = React.useCallback(function callback(map) {
-    // This is just an example of getting and using the map instance!!! don't just blindly copy!
     const bounds = new window.google.maps.LatLngBounds(center);
     map.fitBounds(bounds);
 
