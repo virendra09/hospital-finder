@@ -1,0 +1,48 @@
+.hospital-finder{
+    height:100vh;
+}
+
+
+.hospital-finder h1{
+    text-align: center;
+    color:rgb(246, 246, 5);
+   
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-bottom: 140px;
+    margin-top: 10%;
+    border:solid 5px brown;
+    border-radius: 2%;
+    gap:10px;
+
+}
+.left-part{
+    padding:20px;
+    
+}
+
+.left-part img{
+    height:90%;
+    width:70%;
+}
+
+.inputs{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    gap:20px;
+
+}
+
+.inputs input{
+    height:30px;
+}
+.right-part{
+    display:flex;
+    flex-direction: column;
+    gap:25px;
+}
